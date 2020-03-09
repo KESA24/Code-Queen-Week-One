@@ -2,8 +2,28 @@
 <html>
     <head>
         <title>CODEQUEEN</title>
+        <link rel="stylesheet" href="codequeen.css">
+        <style>
+            p{
+                color: tomato
+            }
+            .paragraph{
+                color: darkblue;
+            }
+            .headings{
+                background-color: darkcyan;
+                color: wheat;
+                font-size: 20px;
+            }
+            #progress{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 20px;
+                text-decoration: yellow;
+            }
+        </style>
     </head>
     <body>
+        <center>
         <header>
             <nav>
                 <a href="">Home</a>
@@ -11,11 +31,13 @@
                 <a href="">Contact</a>
             </nav>
         </header>
+        <div class="headings">
             <h1>HELLO WORLD</h1>
             <h2>MY FIRST CLASS</h2>
             <P>First class excitement</P>
+        </div>
             <section>
-                <p>learning html basics</p>
+                <p class="paragraph">learning html basics</p>
                 <ul>
                     <li>Html structure</li>
                     <li>document type declaration</li>
@@ -33,15 +55,16 @@
                <img src="C:\Users\KESA.PR\Desktop\Code Queen\maslow-hierachy-of-needs-min.jpg"> 
                <section>
                    <h2>My progress bar</h2>
-                   <p>
+                   <p id="progress">
                        The progress you'll make<br>
                        When you understand HTML5 Code<progress max="100" value="30"></progress> <br>
                        When you understand CSS3 CODE<progress max="100" value="50" ></progress> <br>
                        When you understand Javascript code<progress max="100" value="80" ></progress> <br>
                        When you understand HTML5+CSS3+Javascripts Code<progress max="100" value="100" ></progress>
                    </p>
-                   <mark>This page is void of css </mark>
+                   <mark>This page is void of css </mark><!--highlights text as in marks it-->
                </section>
                    </div>
+                   </center><!--puts the body/contents in the centre of the page-->
            </body>
 </html>
